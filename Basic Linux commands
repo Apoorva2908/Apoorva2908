@@ -1,0 +1,29 @@
+pwd - to see the current directory.
+cd - change directory.
+cd .. - to go into previous directory.
+ls - to see the contents of the directory.
+ls .. - to see the contents of the previous directory.
+touch file - makes a new file in the current directory.
+mkdir folder - makes a new folder at current directory.
+ls -la - gives details about the files of the directory(read, write permissions etc.).
+cat filename - gives the content of the file filename.
+ctrl + c - kills the current query.
+rm filename - removes file.
+rm -r folder - removes folder if empty.
+python - takes to the python environment.
+  vi filename.py - lets us view the file.
+  press i in the file - lets us edit the file.
+  :q - quit within the file
+  :wq - saves and quits
+  import os 
+  os.getcwd() - gives current directory in which .py file is made.
+  os.chdir() - changes the directory in case we want to access the file of that directory.
+  import sys
+  sys.path.append(".\path") - adds \path to current directory.
+ifconfig - to get the current login ip addressss.
+ssh destination_server_ip - to access another server from current server.
+ssh -l username server_ip - to access specific user of another server from current server.
+ssh username@server_ip - same as above.
+sudo cp <source> <destination> - copying a file from one place to another.
+sudo cp -r <source> <destination> - copying a folder from one place to another.
+ 
