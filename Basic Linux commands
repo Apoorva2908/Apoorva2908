@@ -26,4 +26,42 @@ ssh -l username server_ip - to access specific user of another server from curre
 ssh username@server_ip - same as above.
 sudo cp <source> <destination> - copying a file from one place to another.
 sudo cp -r <source> <destination> - copying a folder from one place to another.
- 
+
+Linux commands- https://www.youtube.com/watch?v=AVXYq8aL47Q
+-> cd - : takes to previous directory
+-> cd ~ : takes to home directory
+-> ctrl + l/ clear : clears the screen
+-> reset : resets the terminal
+-> pushd /dir : changes the directory to specific directory from any place /dir
+-> popd : changes back to previous directory from the specific directory.
+-> ctrl + z: pauses the current work or file and lets you got to terminal
+without changing the terminal window and without closing the previous file
+-> fg : brings things back to foreground.
+-> sudo apt update: updates the app of the system
+-> xyz !! : runs xyz and previous command together.
+-> ctrl + r : changes the terminal to search env where you can type a part 
+of your previously run command in order to recall it. pressing ctrl + r again n again will give diff options.
+-> history : gives the command history.
+-> which xyz : gives if the xyz is installed or not.
+-> !## : on typing history we get the history of all the commands which have been used and 
+with numbers near to it and if we use the above command with ## being the number against the command 
+we can re run that command.
+-> HISTTIMEFORMAT = "%Y-%m-%d %T " : gives the output of the history command showing the date and time
+when the command was executed. 
+-> nano ~/.bashrc: opens the bashrc where we can make changes such that we don't have to give the same
+commands everytime we run the terminal i.e. permanent changes like the above command.
+-> cmatrix: the wallpaper command.
+-> F11 : full screen. Covers entire screen
+-> ctrl + shift + '+' : changes the size of the font.
+-> ctrl + '-': decreases the size of the font.
+-> ctrl + u : deletes everything on the line.
+-> ctrl + a: takes the cursor to the front of the line.
+-> ctrl + e: takes the cursor to the end of the line.
+-> sudo apt dist-upgrade: makes sure that all available updates are installed.
+-> sudo apt update : Updates all the packages in the repositories.
+-> command 1; command 2 :runs two commands 1,2 together.
+-> echo xyz: prints xyz on the terminal.
+-> command1 && command2 : runs both command at the same time and not one after the other in case of above command.
+-> tail -f directory location : gives the live update of the file.
+-> truncate -s size filename : trunctates the filename to size s.
+-> mount | column -t : gives the output in columns
