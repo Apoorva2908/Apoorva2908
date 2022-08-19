@@ -1,3 +1,4 @@
+# Linux Commands
 pwd - to see the current directory.
 cd - change directory.
 cd .. - to go into previous directory.
@@ -66,3 +67,4 @@ commands everytime we run the terminal i.e. permanent changes like the above com
 -> truncate -s size filename : trunctates the filename to size s.
 -> mount | column -t : gives the output in columns
 -> pip install --target . TextBlob : Installs the package(here TextBlob in the current folder instead of the env.
+-> clear - Clears the screen
