@@ -2,10 +2,10 @@
 pwd - to see the current directory.
 cd - change directory.
 cd .. - to go into previous directory.
-ls - to see the contents of the directory.
+ls(list) - to see the contents of the directory.
 ls .. - to see the contents of the previous directory.
-touch file - makes a new file in the current directory.
-mkdir folder - makes a new folder at current directory.
+touch file name.extension- makes a new file in the current directory.
+mkdir folder name - makes a new folder at current directory.
 ls -la - gives details about the files of the directory(read, write permissions etc.).
 cat filename - gives the content of the file filename.
 ctrl + c - kills the current query.
@@ -68,3 +68,8 @@ commands everytime we run the terminal i.e. permanent changes like the above com
 -> mount | column -t : gives the output in columns
 -> pip install --target . TextBlob : Installs the package(here TextBlob in the current folder instead of the env.
 -> clear - Clears the screen
+-> cd ~/directory takes you to home directory/directory
+-> rm -rf foldername - removes the folder and all the folder inside it, thus to remove multiple folders we just have to remove the top level folder
+rf here signifies that we are removing a directory instead of removing a file
+-> git --version - gives the got version
+->
