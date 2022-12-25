@@ -72,4 +72,39 @@ commands everytime we run the terminal i.e. permanent changes like the above com
 -> rm -rf foldername - removes the folder and all the folder inside it, thus to remove multiple folders we just have to remove the top level folder
 rf here signifies that we are removing a directory instead of removing a file
 -> git --version - gives the got version
-->
+-> cal - gives the calendar showing date month etc.
+-> date - gives current date and time
+-> which - allows users to search the list of paths in the $PATH environment variable and outputs the full 
+path of the command specified as an argument.
+-> wc -l file -> counts the line in the file.
+-> ls -l - gives the details of all the files present in the present directory
+-> All the linux commands are present in /usr/bincd
+-> mv source target -> moves the file to the target
+-> mkdir -p creates multiple directory at the same time
+-> cat file.txt | grep keyword : looks for 'keyword' in the file.txt.
+-> !! -> helps rerun the previous command
+-> !6 -> helps printing line 6 of the history command
+
+
+**SSH**
+
+-> toolbox for connecting to servers and remotely talking to your source code
+
+image.png
+
+
+command structure on linux - cmd option target , for eg. ls -lah /tmp (file)
+
+
+SHELL PIPING (|)
+
+-> Input - Processing - Output
+Ex: ls -l /usr/bin | wc -l (input - processing)
+Ex: ls -l /usr/bin | wc -l > bin.txt (input - processing - output)
+Ex: Using conditional operator -
+ls -l file.py && touch bin.txt -> if first condition is satisfied second command will be executed otherwise not
+ls -l file.py | touch bin.txt -> second command will be executed irrespective of the first command.
+
+echo "My name is Apoorva" > newfile.txt : prints the line and saves it in the newfile.txt
+echo "Adding another line" >> newfile.txt: appends the line to the file instead of overwriting.
+
